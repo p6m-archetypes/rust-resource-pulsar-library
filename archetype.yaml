@@ -1,0 +1,15 @@
+---
+description: "Rust Pulsar Messaging — pulsar-rs messaging crate for Cargo workspace services"
+summary: >
+  Generates a _messaging Cargo crate with pulsar-rs, MessagingClient, and MessagingSettings.
+  Consumed as a library by Rust service archetypes.
+  Requires the workspace Cargo.toml to declare the crate.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "rust", "messaging", "pulsar"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
