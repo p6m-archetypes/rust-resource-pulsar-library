@@ -1,5 +1,5 @@
 [package]
-name = "{{ prefix_name }}_{{ suffix_name }}_messaging"
+name = "{{ project_name }}_messaging"
 version.workspace = true
 edition.workspace = true
 
