@@ -1,0 +1,10 @@
+[package]
+name = "{{ project_name }}_messaging"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = "1"
+pulsar = "6"
+serde = { version = "1", features = ["derive"] }
+tracing = "0.1"
